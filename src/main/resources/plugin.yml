@@ -1,0 +1,7 @@
+name: fcCore
+version: '${project.version}'
+main: fc.plugins.fccore.FcCore
+api-version: '1.16'
+authors: [ fcPlugins ]
+description: Вспомогательная библиотека для вывода айди предметов сразу на русском языке
+website: https://t.me/fcplugins_minecraft
