@@ -47,7 +47,7 @@ depend: [fcCore]
 ### Основной API
 
 ```java
-import fc.plugins.fccore.api.ItemTranslationAPI;
+import fc.plugins.fccore.manager.api.ItemTranslationAPI;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
