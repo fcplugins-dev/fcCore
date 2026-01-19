@@ -110,10 +110,10 @@ public class MyPlugin extends JavaPlugin {
 fcCore/
 ├── src/main/java/fc/plugins/fccore/
 │   ├── FcCore.java                    # Главный класс плагина
-│   ├── api/
-│   │   └── ItemTranslationAPI.java    # Публичный API
 │   └── manager/
-│       └── TranslationManager.java    # Менеджер переводов
+│       ├── TranslationManager.java    # Менеджер переводов
+│       └── api/
+│           └── ItemTranslationAPI.java # Публичный API
 └── src/main/resources/
     ├── plugin.yml                     # Конфигурация плагина
     └── ru_ru.json                     # Файл с переводами
